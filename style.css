@@ -18,8 +18,8 @@ h1{
     width: fit-content;
     height: fit-content;
     border-radius: 10px;
-    margin-left: 35%;
-    margin-top: 2%;
+    /*margin-left: 35%;
+    margin-top: 2%;*/
 }
 .panel img{
     height: 150px;
@@ -42,21 +42,29 @@ h1{
 button{
     padding: 5px;
     font-size: 15px;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-right: 25px;
     font-weight: bold;
+    background-color: black;
+    color: gray;
+    border-radius: 8px;
+}
+.desc{
+    border: 1px solid red;
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    color: red;
+    font-weight: bolder;
+    margin-top: 10px;
 }
 
 @media screen and (max-width:480px){
-    *{
-        margin: 0px;
-    }
     body{
-        margin-left: 0px;
         padding-top: 20px;
-        background-color: white;
     }
     .panel{
-        margin: 25px;
+        margin-top: 25px;
     }
 }
