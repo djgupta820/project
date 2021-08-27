@@ -71,10 +71,13 @@ button{
         padding-top: 20px;
     }
     .panel{
-        margin-top: 5px;
+        margin-top: 15px;
         font-size: 25px;
     }
     .misc{
         font-size: 15px;
+    }
+    button{
+        font-size: 20px;
     }
 }
