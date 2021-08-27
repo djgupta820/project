@@ -4,25 +4,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Login </title>
         <link rel="stylesheet" media="screen" type="text/css" href="style.css">
+        <script type="text/JavaScript" src="script.js"> </script>
     </head>
     <body>
     <center>
         <div class="panel"> 
             <h1> Login </h1>
             <center> <img src="img_avatar2.png" alt="image"> </center>
-            <label> Username </label>
-            <input type="text" placeholder="username" length=25>
-            <label> Password </label>
-            <input type="text" placeholder="Password" length=25>
-            
-            <div class="misc">
-                <input type="checkbox" value="Remember" id="rem"> Remember me 
-            </div>
-            <button> Login </button>
-            <button> Cancel </button>
-            <div class="misc">
-                <p>Forget <a href="#"> password </a> </p>
-            </div>
+            <form name="loginform">
+                <label> Username </label>
+                <input type="text" placeholder="username" length=25 name="username">
+                <label> Password </label>
+                <input type="password" placeholder="Password" length=25 name="password">
+                
+                <div class="misc">
+                    <input type="checkbox" value="Remember" id="rem"> Remember me 
+                </div>
+                <button onclick="validate();"> Login </button>
+                <button> Cancel </button>
+                <div class="misc">
+                    <p>Forget <a href="#"> password </a> </p>
+                </div>
+            </form>
         </div>
     </center>
         <div> 

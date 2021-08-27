@@ -25,7 +25,7 @@ h1{
     border-radius: 50%;
     margin: 10px;
 }
-.panel label, input[type="text"]{
+.panel label, input[type="text"], input[type="password"]{
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -34,7 +34,7 @@ h1{
     padding: 5px;
     border: none;
 }
-.panel input[type="text"]{
+.panel input[type="text"], input[type="password"]{
     font-size: 25px;
 }
 button{
