@@ -48,8 +48,15 @@ button{
 }
 
 @media screen and (max-width:600px){
+    *{
+        margin: 0px;
+    }
     body{
         margin-left: 0px;
         padding-top: 20px;
+        background-color: white;
+    }
+    .panel{
+        margin: 20px;
     }
 }
